@@ -11,4 +11,5 @@ spring:
         git:
           uri: https://github.com/Subproject-TanTriToanTinhLong-N5/CloudConfigServer.git
           default-label: main
-        bootstrap: false
+          search-paths: application
+        enabled: false
