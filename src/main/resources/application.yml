@@ -12,3 +12,9 @@ spring:
           uri: https://github.com/Subproject-TanTriToanTinhLong-N5/CloudConfigServer.git
           default-label: main
         bootstrap: false
+
+eureka:
+  instance:
+    hostname: n5-subprj-cloudserver.herokuapp.com
+    homePageUrl: https://${eureka.instance.hostName}/
+    home-page-url-path: https://${eureka.instance.hostName}
